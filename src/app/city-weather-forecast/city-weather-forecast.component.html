@@ -1,0 +1,12 @@
+<div class="city-weather-list-container">
+    <ul class="city-weather-forecast">
+        <li *ngFor="let day of foreCastList">
+            <span>{{day.day}}</span>
+            <img class="weather-forecast-icon" src='./../assets/icons/png/{{day.weatherIcon}}.png'alt="error loading icon" />
+            <div class="temperature-windspeed-container">
+                <span class="temperature-text">{{day.currentTemperatureMin}}-{{day.currentTemperatureMax}} °C</span>
+                <span class="wind-speed-text">{{day.windSpeed}}m/s</span>
+            </div>
+        </li>
+    </ul>
+</div>

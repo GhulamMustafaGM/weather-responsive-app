@@ -1,0 +1,77 @@
+.current-city-weather-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    color: #C9CAD0;
+}
+
+.city-location-name {
+    /* Gothenburg */
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 44, 53px;
+    color: #828282;
+    size: 38px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.date-time-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 186px;
+    height: 49px;
+    margin: 0 auto;
+    margin-top: 16px;
+    font-size: 19px;
+    line-height: 12, 27px;
+    font-family: Roboto;
+    text-align: center;
+    color: #A3A3A3;
+}
+
+.current-sky-txt:first-letter {
+    text-transform: capitalize;
+}
+
+.current-sky {
+    height: 46px;
+    width: 42px;
+    margin: 0 auto;
+    font-size: 19px;
+    margin-top: 16px;
+    left: 46.81%;
+    right: 50.28%;
+    top: 17.19%;
+    bottom: 78.32%;
+}
+
+.temperature-wind-container {
+    display: flex;
+    flex-direction: column;
+    left: 46.39%;
+    right: 49.38%;
+    top: 26.07%;
+    bottom: 71.58%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+}
+
+.temperature-text {
+    padding: 10px 0px 0px 15px;
+}
+
+.wind-speed-text {
+    padding: 10px 0px 0px 0px;
+}

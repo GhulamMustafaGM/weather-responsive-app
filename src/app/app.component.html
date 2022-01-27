@@ -1,0 +1,20 @@
+<div>
+  <mat-toolbar class="sub-nav-link" id="main-nav">
+    <span class="weather">Weather</span>
+    <a mat-raised-button class="nav-active">Label 1</a>
+    <a mat-button class="sub-nav-inactive">Label 2</a>
+    <a mat-button class="sub-nav-inactive">Label 3</a>
+    <a mat-button class="sub-nav-inactive">Label 4</a>
+    <a mat-button class="sub-nav-inactive">Label 5</a>
+    <span class="menu-spacer"></span>
+    <button mat-icon-button class="menu-icon" aria-label=" menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <div class="app">
+    <app-current-city-weather></app-current-city-weather>
+    <div class="header-line"></div>
+    <app-city-weather-forecast></app-city-weather-forecast>
+  </div>
+</div>
