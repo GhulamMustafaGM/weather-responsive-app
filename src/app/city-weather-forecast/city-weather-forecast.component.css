@@ -1,4 +1,3 @@
-
 .city-weather-forecast {
     display: flex;
     flex-direction: row;
@@ -37,4 +36,21 @@ li {
 
 .temperature-text {
     padding: 0px 0px 0px 15px
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .city-weather-forecast {
+        position: relative;
+        width: 375px;
+        height: 667px;
+        background: #FAFAFA;
+    }
+
+    .city-weather-forecast li {
+        position: relative;
+        width: 375px;
+        height: 667px;
+        background: #FAFAFA;
+    }
 }

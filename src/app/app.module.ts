@@ -10,6 +10,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CurrentCityWeatherComponent } from './current-city-weather/current-city-weather.component';
 import { CityWeatherForecastComponent } from './city-weather-forecast/city-weather-forecast.component';
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,11 @@ import { CityWeatherForecastComponent } from './city-weather-forecast/city-weath
     MatToolbarModule,
     MatButtonModule,
     HttpClientModule,
-    MatIconModule
+    MatIconModule,
+    FlexLayoutModule,
+    MatSidenavModule,
+    MatListModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

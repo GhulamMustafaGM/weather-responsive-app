@@ -32,7 +32,8 @@
     line-height: 12, 27px;
     font-family: Roboto;
     text-align: center;
-    color: #A3A3A3;
+    /* Gray 4 */
+    color: #BDBDBD;
 }
 
 .current-sky-txt:first-letter {
@@ -74,4 +75,16 @@
 
 .wind-speed-text {
     padding: 10px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .city-location-name {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 45px;
+        text-align: center;
+        color: #828282;
+    }
 }
